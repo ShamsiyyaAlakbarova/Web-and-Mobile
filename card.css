@@ -1,0 +1,191 @@
+body {
+    background-color: #23252C;
+}
+
+.container {
+    background-color: #3f4046;
+    border: 2px solid;
+    width: 30%;
+    height: 600px;
+    margin: 50px auto;
+    min-width: 350px;
+    border-radius: 10px;
+
+}
+
+.top {
+    width: 100%;
+    height: 230px;
+    background-image: url(../panoramic-view-baku-azerbaijan-shutterstock_544217959-1024x683.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto 10px;
+    background-color: #000000;
+    padding-top: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bio {
+    text-align: center;
+}
+
+.bio>h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bio>h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #F3BF99;
+    line-height: 15.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bio>p {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+
+.messenger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.messenger--link1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #D1D5DB;
+    color: #374151;
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.messenger--link1:hover {
+    background-color: #374151;
+    border-color: white;
+    color: white;
+
+
+}
+
+
+.messenger--link--icon1 {
+    width: 1.5rem;
+    height: 0.95rem;
+    margin-right: 5%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.messenger--link--text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+.messenger--link2 {
+    background-color: #5093E2;
+    border: 1px solid black;
+    color: #3f4046;
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.messenger--link2:hover {
+    background-color: gray;
+    border-color: white;
+}
+
+.messenger--link--icon2 {
+    width: 1.5rem;
+    height: 0.95rem;
+    margin-right: 5%;
+}
+
+.info {
+    padding: 13px 30px;
+}
+
+.info--component>h2 {
+    color: rgb(207, 124, 16);
+    font-size: 15px;
+}
+
+.info--component>p {
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 18px;
+    color: white;
+}
+
+footer {
+    border-radius: 5px;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.social-icon {
+    vertical-align: middle;
+    font-size: 2.15rem;
+    text-align: center;
+}
+
+.social-icon>.fa {
+    width: 32px;
+    height: 32px;
+    background-color: #23252C;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.social-icon>.fa:hover {
+    background-color: gray;
+}

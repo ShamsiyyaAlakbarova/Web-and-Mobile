@@ -1,0 +1,62 @@
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 100px;
+}
+body{
+    background-color: wheat;
+}
+h2{
+    font-style: italic;
+}
+h2:hover{
+    color: forestgreen;
+    cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  color: rgb(107, 32, 38);
+}
+#table tr:hover {
+  color: rgb(134, 73, 73);
+  background-color: beige;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(73, 35, 153);
+}
+
+
+.navbar li a:hover {
+  background-color: #111;
+}
