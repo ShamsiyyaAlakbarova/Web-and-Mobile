@@ -1,0 +1,52 @@
+body{
+    background-image: url("cloudy-7098479__480.webp");
+}
+h1{
+    text-align: center;
+    color: rgb(0, 153, 255);
+}
+h3{
+    color: rgb(38, 0, 255);
+}
+
+.styled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.styled li {
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+  }
+
+.styled li::before {
+    content: '📍 ';
+  }
+.styled li:nth-child(2)::before {
+    content: '🌎 ';
+  }
+.styled li:nth-child(3)::before {
+    content: '☀️ ';
+  }
+.styled li:nth-child(4)::before {
+    content: '☔ ';
+  }
+.styled li:nth-child(5)::before {
+    content: '🌡️ ';
+  }
+.styled li:nth-child(6)::before {
+    content: '☁️ ';
+  }
+.styled li:nth-child(7)::before {
+    content: '💧 ';
+  }
+.styled li:nth-child(8)::before {
+    content: '🌬️ ';
+  }
+.styled li:nth-child(9)::before {
+    content: '⏰ ';
+  }
+  .input{
+    text-align: center;
+  }
